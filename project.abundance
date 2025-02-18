@@ -41,7 +41,7 @@
                     "ioValues": [
                         {
                             "name": "number or geometry",
-                            "ioValue": 1739907639909
+                            "ioValue": 1739908225518
                         }
                     ],
                     "description": "Connect geometry here to make it available in the next level up. "
@@ -1014,20 +1014,10 @@
                     "compiledBom": []
                 },
                 {
-                    "atomType": "Fusion",
-                    "name": "Fusion",
-                    "x": 0.5793650793650793,
-                    "y": 0.7910863509749304,
-                    "uniqueID": 1739908220414,
-                    "ioValues": [],
-                    "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape",
-                    "unionType": "Fusion"
-                },
-                {
                     "atomType": "Molecule",
-                    "name": "Door and Windows",
-                    "x": 0.4259259259259259,
-                    "y": 0.8941504178272981,
+                    "name": "Door and Window Cutouts",
+                    "x": 0.611111111111111,
+                    "y": 0.818941504178273,
                     "uniqueID": 1739908225518,
                     "ioValues": [
                         {
@@ -1047,7 +1037,7 @@
                             "ioValues": [
                                 {
                                     "name": "number or geometry",
-                                    "ioValue": 1739907639909
+                                    "ioValue": 1739908519395
                                 }
                             ],
                             "description": "Connect geometry here to make it available in the next level up. "
@@ -1055,8 +1045,8 @@
                         {
                             "atomType": "Rectangle",
                             "name": "Rectangle",
-                            "x": 0.18783068783068782,
-                            "y": 0.41782729805013924,
+                            "x": 0.09325396825396826,
+                            "y": 0.25069637883008355,
                             "uniqueID": 1739908236453,
                             "ioValues": [
                                 {
@@ -1073,8 +1063,8 @@
                         {
                             "atomType": "Move",
                             "name": "Move",
-                            "x": 0.33201058201058203,
-                            "y": 0.2395543175487465,
+                            "x": 0.21428571428571427,
+                            "y": 0.23119777158774377,
                             "uniqueID": 1739908306254,
                             "ioValues": [
                                 {
@@ -1099,8 +1089,8 @@
                         {
                             "atomType": "Extrude",
                             "name": "Extrude",
-                            "x": 0.5125661375661376,
-                            "y": 0.36211699164345407,
+                            "x": 0.37698412698412703,
+                            "y": 0.20055710306406688,
                             "uniqueID": 1739908332191,
                             "ioValues": [
                                 {
@@ -1117,8 +1107,8 @@
                         {
                             "atomType": "Rectangle",
                             "name": "Rectangle",
-                            "x": 0.25396825396825395,
-                            "y": 0.777158774373259,
+                            "x": 0.082010582010582,
+                            "y": 0.5348189415041783,
                             "uniqueID": 1739908363865,
                             "ioValues": [
                                 {
@@ -1135,8 +1125,8 @@
                         {
                             "atomType": "Move",
                             "name": "Move",
-                            "x": 0.5244708994708994,
-                            "y": 0.8245125348189415,
+                            "x": 0.16005291005291006,
+                            "y": 0.5069637883008357,
                             "uniqueID": 1739908402652,
                             "ioValues": [
                                 {
@@ -1162,7 +1152,7 @@
                             "atomType": "Input",
                             "name": "Outline",
                             "x": 0.04,
-                            "y": 0.4428969359331476,
+                            "y": 0.9415041782729805,
                             "uniqueID": 1739908416217,
                             "ioValues": [],
                             "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
@@ -1171,8 +1161,8 @@
                         {
                             "atomType": "Extrude",
                             "name": "Extrude",
-                            "x": 0.6448412698412699,
-                            "y": 0.6657381615598886,
+                            "x": 0.3505291005291006,
+                            "y": 0.4735376044568245,
                             "uniqueID": 1739908494698,
                             "ioValues": [
                                 {
@@ -1189,8 +1179,8 @@
                         {
                             "atomType": "Fusion",
                             "name": "Fusion",
-                            "x": 0.7447089947089947,
-                            "y": 0.2924791086350975,
+                            "x": 0.6044973544973545,
+                            "y": 0.15877437325905294,
                             "uniqueID": 1739908507857,
                             "ioValues": [
                                 {
@@ -1200,6 +1190,10 @@
                                 {
                                     "name": "Shape 2",
                                     "ioValue": 1739908332191
+                                },
+                                {
+                                    "name": "Shape 3",
+                                    "ioValue": 1739908679486
                                 }
                             ],
                             "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape",
@@ -1208,20 +1202,82 @@
                         {
                             "atomType": "Difference",
                             "name": "Difference",
-                            "x": 0.7764550264550265,
-                            "y": 0.8774373259052926,
+                            "x": 0.8531746031746031,
+                            "y": 0.8857938718662952,
                             "uniqueID": 1739908519395,
                             "ioValues": [
                                 {
                                     "name": "geometry2",
-                                    "ioValue": ""
+                                    "ioValue": 1739908507857
                                 },
                                 {
                                     "name": "geometry1",
-                                    "ioValue": ""
+                                    "ioValue": 1739907639909
                                 }
                             ],
                             "description": "Subtracts shape two from shape one."
+                        },
+                        {
+                            "atomType": "Rectangle",
+                            "name": "Rectangle",
+                            "x": 0.19510582010582012,
+                            "y": 0.7799442896935932,
+                            "uniqueID": 1739908600094,
+                            "ioValues": [
+                                {
+                                    "name": "x length",
+                                    "ioValue": 10
+                                },
+                                {
+                                    "name": "y length",
+                                    "ioValue": 48
+                                }
+                            ],
+                            "description": "Creates a new rectangle."
+                        },
+                        {
+                            "atomType": "Move",
+                            "name": "Move",
+                            "x": 0.36243386243386244,
+                            "y": 0.7298050139275767,
+                            "uniqueID": 1739908620801,
+                            "ioValues": [
+                                {
+                                    "name": "geometry",
+                                    "ioValue": 1739908600094
+                                },
+                                {
+                                    "name": "xDist",
+                                    "ioValue": -109
+                                },
+                                {
+                                    "name": "yDist",
+                                    "ioValue": 151
+                                },
+                                {
+                                    "name": "zDist",
+                                    "ioValue": 17
+                                }
+                            ],
+                            "description": "Moves a shape laterally in X, Y, Z."
+                        },
+                        {
+                            "atomType": "Extrude",
+                            "name": "Extrude",
+                            "x": 0.546957671957672,
+                            "y": 0.532033426183844,
+                            "uniqueID": 1739908679486,
+                            "ioValues": [
+                                {
+                                    "name": "geometry",
+                                    "ioValue": 1739908620801
+                                },
+                                {
+                                    "name": "height",
+                                    "ioValue": 30
+                                }
+                            ],
+                            "description": "Extrudes a 2D shape. Input can be negitive. "
                         }
                     ],
                     "allConnectors": [
@@ -1262,16 +1318,51 @@
                         },
                         {
                             "ap1Name": "number or geometry",
-                            "ap2Name": "number or geometry",
+                            "ap2Name": "geometry1",
                             "ap2Primary": false,
                             "ap1ID": 1739908416217,
-                            "ap2ID": 1739908225915
+                            "ap2ID": 1739908519395
                         },
                         {
                             "ap1Name": "geometry",
                             "ap2Name": "Shape 1",
                             "ap2Primary": false,
                             "ap1ID": 1739908494698,
+                            "ap2ID": 1739908507857
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "geometry2",
+                            "ap2Primary": false,
+                            "ap1ID": 1739908507857,
+                            "ap2ID": 1739908519395
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "number or geometry",
+                            "ap2Primary": false,
+                            "ap1ID": 1739908519395,
+                            "ap2ID": 1739908225915
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "geometry",
+                            "ap2Primary": true,
+                            "ap1ID": 1739908600094,
+                            "ap2ID": 1739908620801
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "geometry",
+                            "ap2Primary": true,
+                            "ap1ID": 1739908620801,
+                            "ap2ID": 1739908679486
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "Shape 3",
+                            "ap2Primary": false,
+                            "ap1ID": 1739908679486,
                             "ap2ID": 1739908507857
                         }
                     ],
@@ -1296,13 +1387,6 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "number or geometry",
-                    "ap2Primary": false,
-                    "ap1ID": 1739907639909,
-                    "ap2ID": 1739907032465
-                },
-                {
-                    "ap1Name": "geometry",
                     "ap2Name": "Outline",
                     "ap2Primary": false,
                     "ap1ID": 1739907639909,
@@ -1314,6 +1398,13 @@
                     "ap2Primary": false,
                     "ap1ID": 1739907751308,
                     "ap2ID": 1739907639909
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "number or geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 1739908225518,
+                    "ap2ID": 1739907032465
                 }
             ],
             "fileTypeVersion": 1,
