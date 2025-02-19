@@ -2205,7 +2205,7 @@
                 },
                 {
                     "name": "x-axis degrees",
-                    "ioValue": 0
+                    "ioValue": 70
                 },
                 {
                     "name": "y-axis degrees",
@@ -2213,7 +2213,7 @@
                 },
                 {
                     "name": "z-axis degrees",
-                    "ioValue": 90
+                    "ioValue": -90
                 }
             ],
             "description": "Rotates the input geometry around the X, Y, or Z axis. Inputs are degrees."
@@ -2221,7 +2221,7 @@
         {
             "atomType": "Move",
             "name": "Move",
-            "x": 0.3048941798941799,
+            "x": 0.30886243386243384,
             "y": 0.41782729805013924,
             "uniqueID": 1739925346426,
             "ioValues": [
@@ -2231,11 +2231,11 @@
                 },
                 {
                     "name": "xDist",
-                    "ioValue": -3
+                    "ioValue": -23
                 },
                 {
                     "name": "yDist",
-                    "ioValue": 46
+                    "ioValue": 146
                 },
                 {
                     "name": "zDist",
