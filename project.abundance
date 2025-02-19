@@ -3828,11 +3828,11 @@
                         },
                         {
                             "name": "xDist",
-                            "ioValue": 0
+                            "ioValue": 100
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 0
+                            "ioValue": -100
                         },
                         {
                             "name": "zDist",
